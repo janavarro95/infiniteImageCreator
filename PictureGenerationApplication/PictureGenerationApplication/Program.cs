@@ -44,6 +44,15 @@ namespace PictureGenerationApplication
             /*
              * Approx run time analysis
              * iter=1 // run time 524288 seconds,or 6.06 Days for a 2x2 image
+             * iter=1 //run time for a 1x1 px image would be 131072 seconds, or 2184.4 minutes or 36.4 hours or 1.51 days
+             * //under these same circumstances to fill out a single 1920x 1080 image would take 3145728 days or 8618.432 years....
+             * 
+             * //to get this to movie standard of 24 frames per second would take 206842.389 years for a single second of film.
+             * //knowing that
+             * 1 second= 206842.389 years
+             * 1 minute=12410543.34 years
+             * 90 minute full featured film (no audio) = 1116948901 years. Or basically 1.116 billion years. But you could watch any film ever to exist at that resolution.
+             * //at writing this (4/13/2017) the earth is 4.543 billion years old. Essentially it would take 1/4th the age of the earth to produce a movie like this one. 
              * 
              * 4x4px, iter=32= 1m:22s:14ms
              * 3x3px, iter=32= 43.68 seconds
